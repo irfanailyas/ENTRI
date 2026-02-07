@@ -1,4 +1,11 @@
+~ To open VX Code from the folder path itself:-
+Folder name path tab cut and type cmd >> enter >> code (space) .
 
+~ UTF-8 and the contents of <meta> tag are used for the accessibiltiy in every browsers or for availability of all users.
+
+~ For the copyright symbol we can right as follows:-   &copy;
+
+~ For commenting use the follows:  <!--HELLO--!>
 
 
 FORM TAGS:-
@@ -21,7 +28,7 @@ INPUT TAGS:-
 # You should always giev the type value for the inputs else all the inputs will be given "text" value as default.
 # required will validate that the input box is filled with the values.
 # type = "text" for text, "radio" for radio button(sleecting one of many choices), "checkbox" for checkbox(selecting zero or more options), "submit" for submit button, "button" for clickable button.
-# type = "date, time, range for selecting range, password"
+# type = "date, time, range for selecting range, password, tel for phone number"
 # name implies the place where it is to be stored in the backend. This field is mandatory for backend based storing.  For example,
 <input placeholder ="First Name" type = "text" name ="Fname" required>
 
@@ -39,4 +46,44 @@ CHECKBOX BUTTON:-
 For checkbox button you can write different names for the name field.
 <input type="text" name="tech1" id="tech_id">
 
+FIGURE TAG:-
+<figure>
+  <img src="pic_trulli.jpg" alt="iALTERNATE TEXT style="width:100%">
+  <figcaption>CAPTION</figcaption>
+</figure>
 
+FORM FIELD SET:-
+<form action="/where to go">
+  <fieldset>
+    <legend>TEXT LIKE NAME OF THE FORM</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+FOR EXAMPLE:-
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+
+TEXTAREA TAG:-
+<textarea  name="message"  rows="4"  cols="50"  placeholder="Type your message here..."  required  maxlength="500">
+</textarea>
