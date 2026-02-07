@@ -1,0 +1,42 @@
+
+
+
+FORM TAGS:-
+<form action = "">
+# By using the <form> tag only nothing will be displayed. But when we write,
+<form>
+<input >
+</form>
+Then a box will be displayed in the output.
+
+LABLE TAG:-
+<label for = "name">First Name</label><br>
+The attribute of the <label> tag should be equal to the id attribute of the <input> tag to bind them together.
+
+INPUT TAGS:-
+<input placeholder ="" type = "" name ="" required id="" value="">
+# placeholder = the name which is seen inside the box and the label is usedfor leabelling the box.
+# type will define the type of the input value and the validation too. For example,
+<input type="email"> will validate the text only with @ symbol.
+# You should always giev the type value for the inputs else all the inputs will be given "text" value as default.
+# required will validate that the input box is filled with the values.
+# type = "text" for text, "radio" for radio button(sleecting one of many choices), "checkbox" for checkbox(selecting zero or more options), "submit" for submit button, "button" for clickable button.
+# type = "date, time, range for selecting range, password"
+# name implies the place where it is to be stored in the backend. This field is mandatory for backend based storing.  For example,
+<input placeholder ="First Name" type = "text" name ="Fname" required>
+
+RADIO BUTTON:-
+In case of Radio Button, it is used for selecting only one option. Hence the name field should be the same in every <input> tag else we'll be able to select all the available options.
+<input type="radio" name="tech" value="html" id="html_id">
+<label for="html_id">HTML</label>
+<input type="radio" name="tech">
+<label>CSS</label>
+<input type="radio" name="tech">
+<label>JS</label>
+Now you'll be able to select anyone of them, if you don't add the name field then you can select all of them.
+
+CHECKBOX BUTTON:-
+For checkbox button you can write different names for the name field.
+<input type="text" name="tech1" id="tech_id">
+
+
