@@ -17,6 +17,7 @@ FORM TAGS:-
 Then a box will be displayed in the output.
 
 LABLE TAG:-
+
 <label for = "name">First Name</label><br>
 The attribute of the <label> tag should be equal to the id attribute of the <input> tag to bind them together.
 
@@ -87,3 +88,35 @@ FOR EXAMPLE:-
 TEXTAREA TAG:-
 <textarea  name="message"  rows="4"  cols="50"  placeholder="Type your message here..."  required  maxlength="500">
 </textarea>
+
+*************CSS*************
+
+CSS are of two types:-
+~ INLINE CSS
+~ INTERNAL CSS
+~ EXTERNAL CSS
+
+~INLINE CSS:-
+# This is the type of style where you style the tag by writing the features as attributes in the tag itself.
+# <section style="background-color: #fffff; color: #333; margin: 20px; padding: 20px; border: 2px;
+
+~ INTERNAL CSS:-
+# This is done by the help of <style> tag. The tag will be written within the <head> tag section. For example:-
+<head>
+ <style>
+    body{
+      color: #3fff;
+      background-color:#ffffff;
+      margin: 0;
+      padding: 2px;
+    }
+</style>
+# We assign each of like id and class for each tags and write the styling inside the style tag for the speicific ones.
+# For id we can just write as follows: classname{} and for classnames we can write as follows: .classname{}
+# id can be used when there is a need to select individually.
+# class can be used when we'll have to style multiple elements with the same style.
+
+~EXTERNAL CSS:-
+# This type is done by creating another external file and writing the contents in them.
+<link rel="stylesheet" href="./style.css">
+# In external css, we can make use of the id's assigned for each tags.
