@@ -1,3 +1,7 @@
+# Ctrl + space for knowing the values of the attributes and tags
+
+
+
 CSS are of two types:-
 ~ INLINE CSS
 ~ INTERNAL CSS
@@ -27,3 +31,26 @@ CSS are of two types:-
 # This type is done by creating another external file and writing the contents in them.
 <link rel="stylesheet" href="./style.css">
 # In external css, we can make use of the id's assigned for each tags.
+
+FLEXBOX:-
+It is Flexible Box Layout Flexbox and is a layout model for arranging items (horizontally or vertically) within a container, in a flexible and responsive way.
+A flexbox always consists of:
+A Flex Container - The parent (container) element, where the display property is set to flex or inline-flex. For eg, dispaly: flex;
+One or more Flex Items - The direct children of the flex container automatically becomes flex items
+
+FLEX ITEMS:-
+
+# display - Must be set to flex or inline-flex   {It displays the elements in the the same line}
+# flex-direction - Sets the display-direction of flex items {This sets the direction of the flex items} {The values are row(default), column, row-reverse, column-reverse} {reverse value displays the item from right to left}
+# flex-wrap - Specifies whether the flex items should wrap or not, i.e; if there is not enough room for them on one flex line. {Values are nowrap(default), wrap, wrap-reverse}
+ nowrap: default one dispalys the items in one flex line itself.
+ wrap: this will wrap if necessary.
+ wrap-reverse: This will wrap the items if necessary but in the reverse direction.
+ align-items:  property is used to align the flex items vertically (on the cross-axis).align-items - Aligns the flex items when they do not use all available space on the cross-axis (vertically)
+# align-content -  is used to align the flex lines. It only has effect when flex items wrap onto multiple lines. {The values are stretch(default), center, flex-start, flex-end, space-between, space-evenly, space-around} 
+flex-flow - Shorthand property for flex-direction and flex-wrap
+justify-content - Aligns the flex items when they do not use all available space on the main-axis (horizontally)
+
+display: flex;  
+flex-direction: can have two values row and column
+row-reverse  (It reverses the direction in reverse direction) and column-reverse
