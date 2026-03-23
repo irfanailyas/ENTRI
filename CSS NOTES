@@ -36,7 +36,46 @@ FLEXBOX:-
 It is Flexible Box Layout Flexbox and is a layout model for arranging items (horizontally or vertically) within a container, in a flexible and responsive way.
 A flexbox always consists of:
 A Flex Container - The parent (container) element, where the display property is set to flex or inline-flex. For eg, dispaly: flex;
-One or more Flex Items - The direct children of the flex container automatically becomes flex items
+One or more Flex Items - The direct children of the flex container automatically becomes flex item
+
+
+BOX MODEL:-
+# Every box model consits of 4 parts content, padding, border and margin.
+ Content is the text and the elements we write on the page.
+ Padding is the space between the content and the border.
+ Border seperates the marging and the padding and content.
+ Margin is the outermost space outised the border.
+
+BORDER:-
+# Every element will always be having a border or a boundary around it.
+# For a border to work it shoud be asisgne three values:-
+ border-style: {values are ridge, solid, doted}
+ border-width:{can have any values like 5px;}
+ border-colour:{can have any values like black, red etc}
+# The value of border-style should always be present for a border to act.
+# To reduce the spacing of the 3 values, we can write these 3 inot a single line:-
+ border: 2px solid blue;
+# padding has many values like:-
+ padding-top, padding-bottom, padding-right, padding-left.
+ If we write like this : padding: 20 px 20px; it means bottom and top 20px and left and right 10px.
+# Width and height:-
+Total width=width+padding-left+padding-right
+Total helight=height+padding-bottom+padding-top
+Even though we've given the correct measurement for height and width this will be the total width and height. Hence to get the full control over the siszing we'll do the folowing:-
+
+* Asterisk is called the universal selector to globally define the styles or properties we can use this.
+* {
+box-sizing: border-box;
+}
+And now the size of the elements will be as specified itself and will not change.
+
+# There are 2 types of elements:-
+ INLINE ELEMENTS:- An inline element does not start on a new line. It only takes up as much width as necessary.
+
+ BLOCK ELEMENTS:- A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element. It always takes up the full width available (stretches out to the left and right as far as it can).
+ Two commonly used block elements are: <p> and <div>.
+
+
 
 FLEX ITEMS:-
 
