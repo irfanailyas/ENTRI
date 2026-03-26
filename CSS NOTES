@@ -75,11 +75,21 @@ And now the size of the elements will be as specified itself and will not change
  BLOCK ELEMENTS:- A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element. It always takes up the full width available (stretches out to the left and right as far as it can).
  Two commonly used block elements are: <p> and <div>.
 
-
-
 FLEX ITEMS:-
-
+# When the parent element is flex then all the elements whic are block level elemnst will move to the inline forma and be visible itn the smae line.
 # display - Must be set to flex or inline-flex   {It displays the elements in the the same line}
+# justify-content - Aligns the flex items when they do not use all available space on the main-axis (horizontally). i. e; it will give equal spacing and align the items.
+ For the justify content to work the property display: flex should be present.
+{The values are left|right|flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit; }
+flex-start : 	Default value. Items are positioned at the beginning of the container	
+flex-end : 	Items are positioned at the end of the container	
+center	: Items are positioned in the center of the container	
+space-between : 	Items will have space between them	equally and there will be no space before and after the elements.
+space-around : 	Items will have space before, between, and after them	
+space-evenly	 : Items will have equal space around them	, not like space between everywhere the space will be equal in between, at the start and in end.
+initial : 	Sets this property to its default value. 
+inherit	 : Inherits this property from its parent element.
+
 # flex-direction - Sets the display-direction of flex items {This sets the direction of the flex items} {The values are row(default), column, row-reverse, column-reverse} {reverse value displays the item from right to left}
 # flex-wrap - Specifies whether the flex items should wrap or not, i.e; if there is not enough room for them on one flex line. {Values are nowrap(default), wrap, wrap-reverse}
  nowrap: default one dispalys the items in one flex line itself.
@@ -88,8 +98,11 @@ FLEX ITEMS:-
  align-items:  property is used to align the flex items vertically (on the cross-axis).align-items - Aligns the flex items when they do not use all available space on the cross-axis (vertically)
 # align-content -  is used to align the flex lines. It only has effect when flex items wrap onto multiple lines. {The values are stretch(default), center, flex-start, flex-end, space-between, space-evenly, space-around} 
 flex-flow - Shorthand property for flex-direction and flex-wrap
-justify-content - Aligns the flex items when they do not use all available space on the main-axis (horizontally)
+
+
 
 display: flex;  
 flex-direction: can have two values row and column
 row-reverse  (It reverses the direction in reverse direction) and column-reverse
+
+
