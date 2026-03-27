@@ -106,3 +106,15 @@ flex-direction: can have two values row and column
 row-reverse  (It reverses the direction in reverse direction) and column-reverse
 
 
+GRID LAYOUT:-
+# The Grid Layout Module offers a grid-based layout system, with rows and columns.
+# The parent element is given the property "grid". The values are :-
+# grid-template-columns :Specifies the size of the columns, and how many columns in a grid layout
+ grid-template-columns: 100px 100px 100px;   This will display the content in a size of 100 px with 3 columns or we can write the property as grid-template-columns:repeat(3,100px);
+# Also grid property can be written in this way: grid-template-columns: 2fr 1fr; which means that the first 2 content will be of the smae column and the next column will be a different one.
+# grid-template-rows: repeat(3, 100px); i.e; this works the same as grid-template-columns.
+# grid-auto-rows: 100px; this is used to  give automatically the same size for every rows. Here the height of every rows will be of 100px.
+# To issue gap between the rows and columns there are the following properties:
+ gap: 100px; this will give the gap of 100px between rows and columns.
+ row-gap: 100px; this will give a gap of 100px between all the rows.
+ column-gap:100px; this will give a gap of 100 px between the columns.
