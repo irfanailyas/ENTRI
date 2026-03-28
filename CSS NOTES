@@ -76,7 +76,7 @@ And now the size of the elements will be as specified itself and will not change
  Two commonly used block elements are: <p> and <div>.
 
 FLEX ITEMS:-
-# When the parent element is flex then all the elements whic are block level elemnst will move to the inline forma and be visible itn the smae line.
+# When the parent element is flex then all the elements which are block level elements will move to the inline forma and be visible itn the smae line.
 # display - Must be set to flex or inline-flex   {It displays the elements in the the same line}
 # justify-content - Aligns the flex items when they do not use all available space on the main-axis (horizontally). i. e; it will give equal spacing and align the items.
  For the justify content to work the property display: flex should be present.
@@ -118,3 +118,5 @@ GRID LAYOUT:-
  gap: 100px; this will give the gap of 100px between rows and columns.
  row-gap: 100px; this will give a gap of 100px between all the rows.
  column-gap:100px; this will give a gap of 100 px between the columns.
+
+
