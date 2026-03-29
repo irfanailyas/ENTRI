@@ -89,13 +89,28 @@ space-around : 	Items will have space before, between, and after them
 space-evenly	 : Items will have equal space around them	, not like space between everywhere the space will be equal in between, at the start and in end.
 initial : 	Sets this property to its default value. 
 inherit	 : Inherits this property from its parent element.
-
+# align-items:  property is used to align the flex items vertically (on the cross-axis).align-items - Aligns the flex items when they do not use all available space on the cross-axis (vertically)
+ The values are:-
+normal:	Default. Behaves like 'stretch' for flexbox and grid items, or 'start' for grid items with a defined block size.	
+stretch:	Items are stretched to fit the container	
+center:	Items are positioned at the center of the container	both vertically and horizontally.
+flex-start:	Items are positioned at the beginning of the container	
+flex-end:	Items are positioned at the end of the container	
+start:	Items are positioned at the top of the container.
+end:	Items are positioned at the end or bottom of the their individual grid cells, in the block direction	
+baseline	Items are positioned at the baseline of the container	
+initial	Sets this property to its default value. Read about initial	
+inherit	Inherits this property from its parent element. Read about inherit
+# flex-wrap - Each and every time we use flex, we should laways write the line flex-wrap:wrap; so that the elements get the size that is speciifed. Specifies whether the flex items should wrap or not, i.e; if there is not enough room for them on one flex line. {Values are nowrap(default), wrap, wrap-reverse}
+ nowrap: default one displays the items in one flex line itself.
+ wrap: this will wrap if necessary. i.e; if ther is no space for the next elements in the screen it moves it to the nest line and continues.
+ wrap-reverse: This will wrap the items if necessary but in the reverse direction i.e; it moves the element in the upward direction.
+ initial:	Sets this property to its default value. 
+ inherit:	Inherits this property from its parent element.
+# For align and justify you may choose to call content or items according to the value i.e; if there are more than 1 items then you may call align or justify content else you can just cal align or justify items.
 # flex-direction - Sets the display-direction of flex items {This sets the direction of the flex items} {The values are row(default), column, row-reverse, column-reverse} {reverse value displays the item from right to left}
-# flex-wrap - Specifies whether the flex items should wrap or not, i.e; if there is not enough room for them on one flex line. {Values are nowrap(default), wrap, wrap-reverse}
- nowrap: default one dispalys the items in one flex line itself.
- wrap: this will wrap if necessary.
- wrap-reverse: This will wrap the items if necessary but in the reverse direction.
- align-items:  property is used to align the flex items vertically (on the cross-axis).align-items - Aligns the flex items when they do not use all available space on the cross-axis (vertically)
+
+ 
 # align-content -  is used to align the flex lines. It only has effect when flex items wrap onto multiple lines. {The values are stretch(default), center, flex-start, flex-end, space-between, space-evenly, space-around} 
 flex-flow - Shorthand property for flex-direction and flex-wrap
 
