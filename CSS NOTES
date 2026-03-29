@@ -1,6 +1,9 @@
 # Ctrl + space for knowing the values of the attributes and tags
-
-
+# For adding the videos to our website like from Youtube, we shall first click share and then copy the embedded code and then paste it on your code.
+# Also for adding the google maps do copy the embedded code and paste them.
+ i.e; <iframe> tag contained embedded code is present.
+# The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document.
+# While specifying the width and height always try to keep one in the auto and sepcify the value for the other one.
 
 CSS are of two types:-
 ~ INLINE CSS
@@ -109,17 +112,16 @@ inherit	Inherits this property from its parent element. Read about inherit
  inherit:	Inherits this property from its parent element.
 # For align and justify you may choose to call content or items according to the value i.e; if there are more than 1 items then you may call align or justify content else you can just cal align or justify items.
 # flex-direction - Sets the display-direction of flex items {This sets the direction of the flex items} {The values are row(default), column, row-reverse, column-reverse} {reverse value displays the item from right to left}
+# display: flex;  
+# flex-direction: can have the following values.
+ {row, column, row-reverse, column-reverse}
+ row-reverse  (It reverses the direction in reverse direction) and column-reverse
+# align-content -  is used to align the flex item vertically. It only has effect when flex items wrap onto multiple lines. {The values are stretch(default), center, flex-start, flex-end, space-between, space-evenly, space-around} 
+ flex-flow - Shorthand property for flex-direction and flex-wrap
+# justify aligns items horizontally while the align does it vertically.
 
- 
-# align-content -  is used to align the flex lines. It only has effect when flex items wrap onto multiple lines. {The values are stretch(default), center, flex-start, flex-end, space-between, space-evenly, space-around} 
-flex-flow - Shorthand property for flex-direction and flex-wrap
 
-
-
-display: flex;  
-flex-direction: can have two values row and column
-row-reverse  (It reverses the direction in reverse direction) and column-reverse
-
+# FLEX always works in one dimesnion either row wise or column wise that is when the GRID is used it works both in rows and column wise.
 
 GRID LAYOUT:-
 # The Grid Layout Module offers a grid-based layout system, with rows and columns.
@@ -135,3 +137,11 @@ GRID LAYOUT:-
  column-gap:100px; this will give a gap of 100 px between the columns.
 
 
+
+CSS POSITIONING:-
+# This is the way of positioning elements in the webpage. It can have the following values:-
+# position: static; This is the default one and means that the element will be displayed one after the other as per the code.
+# position: relative; By using this value we'll be able to position the item as per the needs. It can be done with the following values:- {top, bottom, left, right}
+ left:20px; this will move the item about 20px left from it's original position.
+ This can also be done by using the margin property too, but while using margin the other items will also be affected.
+# position:absolute; 
