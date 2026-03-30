@@ -4,7 +4,9 @@
  i.e; <iframe> tag contained embedded code is present.
 # The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document.
 # While specifying the width and height always try to keep one in the auto and sepcify the value for the other one.
-
+# For a square if we give the border-radius: 50%; it will turn into a square.
+# In case if we would like to move the item to the right there is an option to use the margin-left property but the issue is it takes all the space available and moves the element.
+ Here we'll be able to move the element by making it as position: static;
 CSS are of two types:-
 ~ INLINE CSS
 ~ INTERNAL CSS
@@ -65,6 +67,18 @@ BORDER:-
 Total width=width+padding-left+padding-right
 Total helight=height+padding-bottom+padding-top
 Even though we've given the correct measurement for height and width this will be the total width and height. Hence to get the full control over the siszing we'll do the folowing:-
+# Margin: The CSS margin properties are used to create space around elements, outside of any defined borders.
+ Margins define the distance between an element's border and the surrounding elements.
+margin-top - sets the top margin of an element
+margin-right - sets the right margin of an element
+margin-bottom - sets the bottom margin of an element
+margin-left - sets the left margin of an element
+For example, if we give the margin-left: 100px; it will move the element for about 100px from the left side of the margin to the right.
+All the margin properties can have the following values:
+auto - the browser calculates the margin
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element
+inherit - specifies that the margin should be inherited from the parent element
 
 * Asterisk is called the universal selector to globally define the styles or properties we can use this.
 * {
@@ -79,7 +93,7 @@ And now the size of the elements will be as specified itself and will not change
  Two commonly used block elements are: <p> and <div>.
 
 FLEX ITEMS:-
-# When the parent element is flex then all the elements which are block level elements will move to the inline forma and be visible itn the smae line.
+# When the parent element is flex then all the elements which are block level elements will move to the inline form and be visible in the same line.
 # display - Must be set to flex or inline-flex   {It displays the elements in the the same line}
 # justify-content - Aligns the flex items when they do not use all available space on the main-axis (horizontally). i. e; it will give equal spacing and align the items.
  For the justify content to work the property display: flex should be present.
@@ -144,4 +158,30 @@ CSS POSITIONING:-
 # position: relative; By using this value we'll be able to position the item as per the needs. It can be done with the following values:- {top, bottom, left, right}
  left:20px; this will move the item about 20px left from it's original position.
  This can also be done by using the margin property too, but while using margin the other items will also be affected.
-# position:absolute; 
+# position:absolute; While positioning an element using the absolute value by defualt it will be moving relative to the parent page. 
+ But to make this element position absolute to the element itself then we should write the position:relative; in the parent page.
+ We should write the following inorder to position the element to the right corner, right: 0;
+TRANSFORM PROPERTY:-
+# The transform property applies a 2D or 3D transformation to an element.i.e; we'll be able to make an overlapping effect too on the element. This property allows you to rotate, scale, move, skew, etc., elements.
+ There are many values:-
+# translate(x,y); where x and y can be -x% or x% and -y% or y%. -ve means it will be moving to left or bottom and +ve means it will be moving to right.
+(check this)
+# position: fixed;  is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. 
+ The top, right, bottom, and left properties are used set the final location of the element.
+ A good practise is to give two directions for the element to align life bottom left, etc.
+ Also while doing this, the width may be reduced and element will be shortened, to avoid this we should give width :100%;
+ Also the elements after the fixed one will be overlapped and to avoid this we shall give margin-top: 7 rem; i;e; it should be give the value same as the height of header or the fixed element.
+# position: sticky; An element with position: sticky; toggles between a relative and fixed position, depending on the scroll position.
+ A sticky element is positioned relative until a certain scroll position is reached - then it "sticks" in that place (like position:fixed).
+ You must specify at least one of the top, right, bottom or left properties, for sticky positioning to work as 0.
+
+
+
+OVERFLOW PROPERTY:-
+Whenever we'll have to give the content and it exceeds the size of the box, then we'll be able to correct this by using this property.
+overflow: hidden;
+This can have the following values:- {visible, hidden, scroll, auto}
+# visible - Default. The overflow is not clipped. The content renders outside the element's box
+# hidden - The overflow is clipped, and the rest of the content is hidden
+# scroll - Scrollbars are added. User must scroll to see all content
+# auto - Similar to scroll, but adds scrollbars only when necessary
