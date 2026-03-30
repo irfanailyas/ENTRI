@@ -7,6 +7,11 @@
 # For a square if we give the border-radius: 50%; it will turn into a square.
 # In case if we would like to move the item to the right there is an option to use the margin-left property but the issue is it takes all the space available and moves the element.
  Here we'll be able to move the element by making it as position: static;
+# To comment a line we just need to select the text and press CTRL+/
+# There is a site to generate color combo and we'll be able to select them one of them is mycolorspace.
+# To style the texts we'll be able to use the text-decoration property.
+
+
 CSS are of two types:-
 ~ INLINE CSS
 ~ INTERNAL CSS
@@ -185,3 +190,19 @@ This can have the following values:- {visible, hidden, scroll, auto}
 # hidden - The overflow is clipped, and the rest of the content is hidden
 # scroll - Scrollbars are added. User must scroll to see all content
 # auto - Similar to scroll, but adds scrollbars only when necessary
+
+STYLING LISTS:-
+# If we don't need any styling for the list values then we can give the following value: 
+ lsit-style: none;
+# CSS has the following properties for styling HTML lists:
+# list-style-type - Specifies the type of list-item marker.
+ It has the following values: {circle, square, disc, upper-roman, lower-roman, lower-alpha, decimal}
+# list-style-image - Specifies an image as the list-item marker.
+   list-style-image: url('sqpurple.gif');
+   list-style-type: square;
+# list-style-position - Specifies the position of the list-item markers. It has two values: inside and outside.
+ list-style-position: outside; means that the bullet points will be outside the list item. The start of each line of a list item will be aligned vertically. This is default one.
+ list-style-position: inside; means that the bullet points will be inside the list item. As it is part of the list item, it will be part of the text and push the text at the start.
+# list-style - A shorthand property for the properties above, where all the properties can be used together in one line.
+ list-style: square inside url("sqpurple.gif");
+This will display the list with image inside the square button.
