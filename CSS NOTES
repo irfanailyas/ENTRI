@@ -10,7 +10,7 @@
 # To comment a line we just need to select the text and press CTRL+/
 # There is a site to generate color combo and we'll be able to select them one of them is mycolorspace.
 # To style the texts we'll be able to use the text-decoration property.
-
+# RWD - Responsive Web Design.
 
 CSS are of two types:-
 ~ INLINE CSS
@@ -208,4 +208,33 @@ STYLING LISTS:-
 This will display the list with image inside the square button.
 
 
+CSS MEDIA QUERIES:-
+# CSS media queries allow you to apply styles based on the characteristics of a device or the environment displaying the web page.
+# CSS media queries are essential for creating responsive web pages.
+# The CSS @media rule is used to add media queries to your style sheet.
+# A media query consists of an optional media-type and one or more media-features, which resolve to either true or false.
+@media [not] media-type and (media-feature: value) and (media-feature: value) {
+  /* CSS rules to apply */
+}
+The media-type is optional. However, if you use not, you must also specify a media-type.
+# Media queries should always be given at the last part of the code else it will be overridden with the other codes.
+# Some common media types are:-
+ all → Applies to all devices.
+ screen → For computer screens, tablets, phones.
+ print → For printed documents.
+ speech → For screen readers.
+# Some of the brekpoints for the media query are as follows and always write the smallest device first and then go on:-
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
