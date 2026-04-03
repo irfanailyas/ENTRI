@@ -1,0 +1,15 @@
+JAVASCRIPT:-
+# This is used to give functionality for the pages i.e; to mention the actions that are to be performed.
+# JS is a high-level, object-oriented, multi-paradigm(i.e; there are multiple ways in which the program can be written) programming language.
+
+VERSIONS OF JS:-
+# The current JavaScript version is ES2025.
+# ECMAScript is the official name of the JavaScript standard.
+# The first ECMAScript versions were abbreviated by numbers. (ES1, ES2, ES3, ES5, ES6).
+# From 2016, versions are named by year (ECMAScript 2016, 2017, 2018, ..., 2025).
+# The versions after ES5 is called the modern JS.
+
+HOW TO WRITE:-
+There are two ways to write the JS code:-
+# Inside the HTML code itlef:- We can make use of the <script> tag and it should written in the <body> tag after wrting all the contents to be displayed.
+# In JS for printing a content we'll use:- console.log("")
