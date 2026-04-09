@@ -11,6 +11,11 @@
 # There is a site to generate color combo and we'll be able to select them one of them is mycolorspace.
 # To style the texts we'll be able to use the text-decoration property.
 # RWD - Responsive Web Design.
+# Stitch Beta for AI prompt and then design generation. 
+# For different fonts we'll be able to take import the mebedded code from the Google fonts.
+# For icons:- fontawesome website can be used.
+
+
 
 CSS are of two types:-
 ~ INLINE CSS
@@ -238,3 +243,10 @@ The media-type is optional. However, if you use not, you must also specify a med
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
+
+# The meta code in the HTML code is used for the working of media query. Media query will only work if this is present.
+
+
+COMBINATORS
+PSEUDO CLASS
+PSEUDO ELEMENTS
