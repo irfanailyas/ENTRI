@@ -1,0 +1,9 @@
+# Bootstrap is a free, open-source front-end framework that helps developers build responsive, mobile-first websites quickly using prebuilt HTML, CSS, and JavaScript components.
+ It’s widely used because it simplifies design with ready-made styles, a powerful grid system, and interactive elements like modals, carousels, and dropdowns.
+# All the details about Bootstrap can be viewed in the Doc section of this link:-
+https://getbootstrap.com/docs/5.3/components/navbar/
+# A CDN in Bootstrap refers to using a Content Delivery Network to quickly load Bootstrap’s CSS and JavaScript files directly from globally distributed servers,
+ instead of hosting them yourself. This makes websites faster, reduces server load, and ensures users get cached versions for better performance.
+# To include Bootstrap in HTML code there are 2 method:-
+ 1. We'll make use of the CDN and connect the code.
+
