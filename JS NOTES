@@ -13,3 +13,15 @@ HOW TO WRITE:-
 There are two ways to write the JS code:-
 # Inside the HTML code itlef:- We can make use of the <script> tag and it should written in the <body> tag after wrting all the contents to be displayed.
 # In JS for printing a content we'll use:- console.log("")
+
+VARIABLES AND VALUES:-
+# All the contents we write in JavaScript are considered as Strings and are written using double quotes. 
+# For displaying the numbers we can write the contents without using the double quotes.
+# let is used to declare a variable  with block scope.
+ It can be reassigned but not redeclared.
+# var can be used to declare a variable with function scope.
+ It can be redeclared and reassigned.
+# const can be used to declare a variable with block scope.
+ It must be initialized at declaration and cannot be reassigned. But if it's an array or object its contents can still be modified.
+# The naming of the variables should always begin with letters also camelcasing should be taken care of i.e; names of the variable should be linke this: myFriend.
+
