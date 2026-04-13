@@ -7,3 +7,4 @@ https://getbootstrap.com/docs/5.3/components/navbar/
 # To include Bootstrap in HTML code there are 2 method:-
  1. We'll make use of the CDN and connect the code.
 
+# There can only be 12 columns in a row.
