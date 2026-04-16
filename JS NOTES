@@ -1,6 +1,10 @@
 JAVASCRIPT:-
 # This is used to give functionality for the pages i.e; to mention the actions that are to be performed.
 # JS is a high-level, object-oriented, multi-paradigm(i.e; there are multiple ways in which the program can be written) programming language.
+# HTML is a hypertext markup language and it doesn't need to be converted into the byte code or the machine level code.
+ While the Javascript is a high level language and it will be converted into the byte code which then performs the action, if you're using Chrome then Chrome V8.
+# JS code can be written as external inside the <script> tag and this should only be written only before the closure of the <body> tag.
+
 
 VERSIONS OF JS:-
 # The current JavaScript version is ES2025.
@@ -25,3 +29,5 @@ VARIABLES AND VALUES:-
  It must be initialized at declaration and cannot be reassigned. But if it's an array or object its contents can still be modified.
 # The naming of the variables should always begin with letters also camelcasing should be taken care of i.e; names of the variable should be linke this: myFriend.
 
+
+DATATYPES IN JAVASCRIPT:-
