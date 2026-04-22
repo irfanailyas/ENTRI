@@ -31,3 +31,27 @@ VARIABLES AND VALUES:-
 
 
 DATATYPES IN JAVASCRIPT:-
+Primitive-type Datatypes:- BigInt, number, string, boolean, null, undefined, symbol.
+# Numbers can be written just as it is and the string components can be written inside "cjdfhu".
+# We can find the type of the variable by the following format typeof<space>variblename.
+# If we define a variable with no values then the type of that variable will be undefined.
+# To note that a variable has no value for that particluar variable then we'll be able to make it by giving the value = null
+# Normally, there will be a limit for entering the values like numbers, here we can define the variable as 
+ let num = BigInt(1234567890)   and the typeof this will be bigint.
+# Boolean is a datatype that stores 2 values: true and false.
+# Symbol is also another data type in JS that is not mostly used.
+
+Reference-type Datatypes:- Object, Array, function.
+# Object datatype can be used to store the details of a particular person and so on.
+  For example to store the details of a person, we can use the object as follows:
+ const person = {
+  name: "Akhil" , 
+  age:23,
+  married:true
+}
+# Array datatype can be used to store a list of items such as marks of the subjects and so on.
+ For example to store the marks of a student scored:
+ const marks = ["Akhil", "Manoj", "Subha"]
+
+# The main difference between the primitive and reference type dataype is that in Primitive datatypes the actual value is stored and in reference type the address
+ or reference of the data is stored.
