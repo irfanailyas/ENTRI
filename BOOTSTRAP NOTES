@@ -7,4 +7,9 @@ https://getbootstrap.com/docs/5.3/components/navbar/
 # To include Bootstrap in HTML code there are 2 method:-
  1. We'll make use of the CDN and connect the code.
 
-# There can only be 12 columns in a row.
+# There can only be 12 columns in a row. For example while creating card in a row you'll be bale to create 4 card of size 3 in one row.
+# Bootstrap also has the brekpoints i.e; the sizes in which the site will be displayed in different devices.
+# Container is an element in Bootstrap where the contenst will be displayed by giving equal spaces in sideways and then will be displayed.
+  It will only take 100% in mobile device and in all other devices it will be in the middle by leaving spaces aside.
+# Container-fluid will take 100% width in every devices.
+# Grid-system
