@@ -1,0 +1,20 @@
+GIT:-
+# Git is a free, open-source distributed version control system created by Linus Torvalds in 2005.
+# It helps developers track changes in code, collaborate efficiently, and maintain complete project history both locally and remotely.
+# Once installed you may share the details like the email and the name of the user by using the following commands:-
+ git config --global user.name "Ayshath Irfana I H"
+ git config --global user.email "irfanailyas@gmail.com"
+
+TERMS TO KNOW BEFORE USING GIT:-
+# Repository:- This is the projetcs's central hub. This is a place where you save the copies of your code.
+# Staging area:-  This is a place where first you ass the files. You may then add or remove the files from here.
+ Once you have all the necessary files in the staging area, you can take a copy of it.
+# Commit:- It is the snapshot of your project at a given time. This means copying the files to your repository.
+
+TO CREATE A REPO AND ADD THE PROJECTS:-
+1. Open the terminal in VS Code.
+2. Then create a repository by writing the following command: git init
+   This will be creating an empty repository and you'll be able to see them or it will be hiddedn in the project file.
+3. The we'll be able to start adding the files by typing the following command: git add filename. 
+ This becomes complexx when there are more number of files and in this case you'll be able to do this by wrriting the following command:
+  git add -A
