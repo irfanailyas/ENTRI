@@ -13,3 +13,6 @@ https://getbootstrap.com/docs/5.3/components/navbar/
   It will only take 100% in mobile device and in all other devices it will be in the middle by leaving spaces aside.
 # Container-fluid will take 100% width in every devices.
 # Grid-system
+# While in full screen if you want to see the cols take full width and in mobile wants to take only 4 of them. Then you can write as follows:
+ cols-12 cols-sm-4
+# Inorder to specify the breakpoints you can make use of the the followong synatx for example:- cols-sm  or cols-lg  or cols-md and so on.
