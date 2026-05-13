@@ -10,11 +10,32 @@ TERMS TO KNOW BEFORE USING GIT:-
 # Staging area:-  This is a place where first you ass the files. You may then add or remove the files from here.
  Once you have all the necessary files in the staging area, you can take a copy of it.
 # Commit:- It is the snapshot of your project at a given time. This means copying the files to your repository.
+# Local:- It is the computer or the system you're working on.
+# Remote:- It is the place where you upload the code to.
+# Push:- This is the process where you upload the code from local to remote.
 
 TO CREATE A REPO AND ADD THE PROJECTS:-
+U = Untracked  A = Tracked
 1. Open the terminal in VS Code.
 2. Then create a repository by writing the following command: git init
    This will be creating an empty repository and you'll be able to see them or it will be hiddedn in the project file.
 3. The we'll be able to start adding the files by typing the following command: git add filename. 
  This becomes complexx when there are more number of files and in this case you'll be able to do this by wrriting the following command:
   git add -A
+This will add the whole files all together.
+At times you'll need to create secret files which will include passwords and these files shouldn't be added to GIT.  Incase if you have added them, then we can remove the file by the following command:
+ git reset filename
+This process has to be repeated each time you add and commit the files into the repo and to correct this we can just make a file named .gitignore and then write the names of the file that shouldn't be copied to GIT repo.
+4. Once the files are added, you'll be able to add a copy of the files from the staging area to GIT and this is done by using the command:
+ git commit -m "message about what you have done in this commit"
+5. Inorder to see the prevoious chnages and commits you have done to the GIT repo you can use the command:
+ git log
+Also to check all the logs together you may use the following command:
+ git log --all
+ Also to know the last commit you'll see a Head in the line and to exit from that window you may type  :q
+6. To add the files in the local to the remote where already a repo is present we can use the following command:
+ git remote add origin link of repo            where origin is the name of the remote
+ git branch -M main
+ git push -u origin main
+7. Inorder to visit the previous commits, we'll make use of the followoing command:
+ git checkout commitid    where commit id can be take when you run the command git log and you'll be able to see each commits, there id and the description.
