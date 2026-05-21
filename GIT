@@ -39,3 +39,10 @@ Also to check all the logs together you may use the following command:
  git push -u origin main
 7. Inorder to visit the previous commits, we'll make use of the followoing command:
  git checkout commitid    where commit id can be take when you run the command git log and you'll be able to see each commits, there id and the description.
+# If you add any folder in your project and there is no files in the folder once you commit them GIT will ignore them.
+# git status can be used to check the current details which files has been added or there .
+# git pull
+
+TO COLLABORATE USING A GIT REPO:-
+# Create a GIT repo and name them provide the details.
+# Go to Repo settings and then 
