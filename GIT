@@ -42,7 +42,16 @@ Also to check all the logs together you may use the following command:
 # If you add any folder in your project and there is no files in the folder once you commit them GIT will ignore them.
 # git status can be used to check the current details which files has been added or there .
 # git pull
+# Inorder to see the branch in which you're currently in you can just use the command: git branch
+# To see all the branches in the repo you can use the command: git branch -a
+# Inorder to switch the branches you can type the command: git switch branchname
+
 
 TO COLLABORATE USING A GIT REPO:-
 # Create a GIT repo and name them provide the details.
 # Go to Repo settings and then 
+
+
+
+ISSUES WITH REDIRECTING TO THE OLD COMMITS:-
+# Incase if there is a bug in the code and you move to an older commit. You'll be able to move to the old commit but the code and the contents written after that will be lost.
