@@ -55,3 +55,8 @@ TO COLLABORATE USING A GIT REPO:-
 
 ISSUES WITH REDIRECTING TO THE OLD COMMITS:-
 # Incase if there is a bug in the code and you move to an older commit. You'll be able to move to the old commit but the code and the contents written after that will be lost.
+
+
+BRANCHING:-
+# Branch:-For example in a project, each and every projects will be saved in the particluar brach of that page.
+
