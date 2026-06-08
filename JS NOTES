@@ -87,3 +87,5 @@ case 2 :
  console.log("Tuesday")
  break;
 }
+
+# To make the code in a more professional way it is better to use the variables declared as let or const instead of using var. 
