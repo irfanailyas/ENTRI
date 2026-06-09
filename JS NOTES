@@ -55,6 +55,12 @@ Reference-type Datatypes:- Object, Array, function.
 
 # The main difference between the primitive and reference type dataype is that in Primitive datatypes the actual value is stored and in reference type the address
  or reference of the data is stored.
+# For object datatypes, it can be delcared as let obj1 = {
+ name: :John",
+ age: 30
+}
+ This is an object with the name obj1. The output will be as follows:  { name: 'John', age: 30 }
+ To print only the name then we'll write console.log(obj1.name) Output will be John.
 
 OPERATORS IN JS:-
 # Arithmetci operators:- These are opeartors used to perform arithmentic operations. like +, -, *, /, ++ --.
@@ -89,3 +95,8 @@ case 2 :
 }
 
 # To make the code in a more professional way it is better to use the variables declared as let or const instead of using var. 
+
+
+LOOPS:-
+# For loop:-
+ for(initialization;condition; increment or decrement)
