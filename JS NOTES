@@ -63,8 +63,8 @@ Reference-type Datatypes:- Object, Array, function.
  To print only the name then we'll write console.log(obj1.name) Output will be John.
 
 OPERATORS IN JS:-
-# Arithmetci operators:- These are opeartors used to perform arithmentic operations. like +, -, *, /, ++ --.
-# Assignment operators:-  =, +=, -=, /=, *=
+# Arithmetci operators:- These are opeartors used to perform arithmentic operations. like +, -, *, /, ++ --. **
+# Assignment operators:-  =, +=, -=, /=, *=, %=, **=
 # Comparison operator:- To compare values between two operators  >, >=,<, <=, 
 === checkes if the two values are of the smae datatype and returns the value true or false.  
 == checks if the two values are same and returns true or false.
@@ -100,3 +100,8 @@ case 2 :
 LOOPS:-
 # For loop:-
  for(initialization;condition; increment or decrement)
+
+
+FUNCTIONS:-
+# In JavaScript, functions are reusable blocks of code that perform specific tasks. They can take inputs (parameters), process them, and return outputs, making your code modular, organized, and easier to maintain.
+# Naming of the functions should follow the camel casing rule.
