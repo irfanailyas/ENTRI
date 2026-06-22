@@ -117,3 +117,5 @@ LOOPS:-
 FUNCTIONS:-
 # In JavaScript, functions are reusable blocks of code that perform specific tasks. They can take inputs (parameters), process them, and return outputs, making your code modular, organized, and easier to maintain.
 # Naming of the functions should follow the camel casing rule.
+# There are 3 types of writing functions:- Function declaration, function expression and arrow functions.
+
