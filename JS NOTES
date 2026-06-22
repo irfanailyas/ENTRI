@@ -119,3 +119,32 @@ FUNCTIONS:-
 # Naming of the functions should follow the camel casing rule.
 # There are 3 types of writing functions:- Function declaration, function expression and arrow functions.
 
+FUNCTION EXPRESSION:-
+const add = function(number1, number 2)  {
+ const sum = number1 + number2
+ return sum
+}
+
+Here the variable add is the function name and the parameters are written inside the parantheses. 
+
+FUNCTION DECLARATION:-
+function add(number1, number2) {
+  const sum = number1 + number2
+  return sum
+}
+
+# These two types of functions can be invoked in the same way as if we call the rest of the functions.
+
+ARROW FUNCTIONS:-
+# Here we don't use the function keyword while writing the functions and use the arrow => symbol instead.
+const sum = (number1, number2) => {
+ const sum = number1 + number2
+ return sum
+}
+# This can also be written in a more shortened version when there is only one line of code as follows:-
+const add = (number1, number2) => number1 + number2
+In this case there is no need to write the return statement and this will return the output of the function automatically.
+
+CALLBACK FUNCTIONS:-
+# A callback function in JavaScript is simply a function that you pass as an argument to another function, and then that other function calls it back (executes it) at a later time.
+# Here the function name will be passed on the paramter of the other function and the value will be added and invoked.
