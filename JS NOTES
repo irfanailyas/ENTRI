@@ -151,3 +151,6 @@ CALLBACK FUNCTIONS:-
 # A callback function in JavaScript is simply a function that you pass as an argument to another function, and then that other function calls it back (executes it) at a later time.
 # Here the function name will be passed on the paramter of the other function and the value will be added and invoked.
 # Yous should always write the return statement and only then the function value will be returned.
+
+DOM(Document Object Model):-
+# 
