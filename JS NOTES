@@ -144,7 +144,10 @@ const sum = (number1, number2) => {
 # This can also be written in a more shortened version when there is only one line of code as follows:-
 const add = (number1, number2) => number1 + number2
 In this case there is no need to write the return statement and this will return the output of the function automatically.
+# While declaring the name of the functiosnit is better to use the const as the names of the functions shoulb be unique and cannot be used anyhwhere.
+
 
 CALLBACK FUNCTIONS:-
 # A callback function in JavaScript is simply a function that you pass as an argument to another function, and then that other function calls it back (executes it) at a later time.
 # Here the function name will be passed on the paramter of the other function and the value will be added and invoked.
+# Yous should always write the return statement and only then the function value will be returned.
