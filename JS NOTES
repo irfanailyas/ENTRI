@@ -153,4 +153,6 @@ CALLBACK FUNCTIONS:-
 # Yous should always write the return statement and only then the function value will be returned.
 
 DOM(Document Object Model):-
-# 
+# The HTML tag is called the Root node.
+# It is not directly related to HTML or JS, it is provided by the web API.
+
