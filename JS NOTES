@@ -156,3 +156,7 @@ DOM(Document Object Model):-
 # The HTML tag is called the Root node.
 # It is not directly related to HTML or JS, it is provided by the web API.
 
+DOM Selectors:-
+# by CSS selectors:-
+ To access class names we use the . ie; document.querySelector('.name');   and for the id we can use # document.querySelector('#test');
+ To access the whole of them we can use documnt.querySelectorAll('.name');
