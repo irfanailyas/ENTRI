@@ -160,3 +160,11 @@ DOM Selectors:-
 # by CSS selectors:-
  To access class names we use the . ie; document.querySelector('.name');   and for the id we can use # document.querySelector('#test');
  To access the whole of them we can use documnt.querySelectorAll('.name');
+# by ID:-
+ This selects the element with the respective ID ie; document.getElementById(".h1");
+# by class name:- 
+ This selects the element by its respective class name; document.getElementsByClassName("button-class");
+# by Tag name:-
+ This selects the element by the tag name ie; document.getElementsByTagName("li"); here the list elements in li will be displayed. A collection will be displayed which can only be accessed by a loop.
+# by Name:-
+ This can be used to access the name mostly used in the case of forms ie; document.getElementsByName("radio");
