@@ -153,8 +153,10 @@ CALLBACK FUNCTIONS:-
 # Yous should always write the return statement and only then the function value will be returned.
 
 DOM(Document Object Model):-
+# It is an interface where a webpage is represented as a structured tree of objects with rootnode as the document and parent and child nodes.
 # The HTML tag is called the Root node.
 # It is not directly related to HTML or JS, it is provided by the web API.
+# JS can only interact with the HTLM by using the DOM.
 
 DOM Selectors:-
 # by CSS selectors:-
@@ -168,3 +170,4 @@ DOM Selectors:-
  This selects the element by the tag name ie; document.getElementsByTagName("li"); here the list elements in li will be displayed. A collection will be displayed which can only be accessed by a loop.
 # by Name:-
  This can be used to access the name mostly used in the case of forms ie; document.getElementsByName("radio");
+
