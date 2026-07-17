@@ -161,7 +161,9 @@ DOM(Document Object Model):-
 DOM Selectors:-
 # by CSS selectors:-
  To access class names we use the . ie; document.querySelector('.name');   and for the id we can use # document.querySelector('#test');
+ This will give the out[ut of the first one which matches the name in the code
  To access the whole of them we can use documnt.querySelectorAll('.name');
+
 # by ID:-
  This selects the element with the respective ID ie; document.getElementById(".h1");
 # by class name:- 
