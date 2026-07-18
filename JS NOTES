@@ -146,6 +146,8 @@ const add = (number1, number2) => number1 + number2
 In this case there is no need to write the return statement and this will return the output of the function automatically.
 # While declaring the name of the functiosnit is better to use the const as the names of the functions shoulb be unique and cannot be used anyhwhere.
 
+ANONYMOUS FUNCTION:-
+A function without a name is called an anonymous function.
 
 CALLBACK FUNCTIONS:-
 # A callback function in JavaScript is simply a function that you pass as an argument to another function, and then that other function calls it back (executes it) at a later time.
@@ -173,3 +175,16 @@ DOM Selectors:-
 # by Name:-
  This can be used to access the name mostly used in the case of forms ie; document.getElementsByName("radio");
 
+
+EVENTLISTNER IN JS:-
+# These are functions that “listen” for specific actions (like clicks, key presses, or mouse movements) on elements and then run code in response.
+# The most common way to add them is with addEventListener(), which lets you attach multiple handlers without overwriting existing ones.
+ In addEventListener("event",function,useCapture);
+ where event has values like click, mouseover, keydown.
+       function is the function which should be executed
+       useCapture : Optional boolean for event flow (default is false → bubbling phase).
+# Event Object:- An event object in JavaScript is a special object that gets automatically passed to your event listener function whenever an event occurs.
+ It contains all the details about that event—like what triggered it, which element was involved, and extra data depending on the type of event.
+ event.target = This gives the element in which the event has happened.
+ event.type = This tells us which kind of event has happened i.e; click event.
+ 
