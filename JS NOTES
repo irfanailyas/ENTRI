@@ -188,3 +188,4 @@ EVENTLISTNER IN JS:-
  event.target = This gives the element in which the event has happened.
  event.type = This tells us which kind of event has happened i.e; click event.
  
+# keydown is a event which will alert the text when any of the key is pressed, you'll have to specicy the key in the console. log statement.
