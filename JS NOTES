@@ -189,3 +189,69 @@ EVENTLISTNER IN JS:-
  event.type = This tells us which kind of event has happened i.e; click event.
  
 # keydown is a event which will alert the text when any of the key is pressed, you'll have to specicy the key in the console. log statement.
+
+FORM SUBMISSION:-
+# While writing the forms we'll be using the labels and the input tags. In the label we'll be using for="" which is used to assign an id for the particluar label.
+ <label for="fname">Firstname</label>
+ The content in the for should be the same as the id in the input tag.
+# The action attribute in the form is used to specify the location when the submission of the form should be redirected somewhere.
+# For form submission you can just access the form by using the id provided and then console.log them by using the eventlistener function.
+# Each time we submit the form the page will be refreshed. Inorder to avoid this refreshing, we'll make use of the event object in the eventlistener functions as follows:-
+ a.addEventListener('submit', (event) =>
+{ 
+ event.preventDefault()
+ console.log("Submitted");
+}
+
+FORM VALIDATION:-
+# This is done inorder to check if the values inserted into the form is in the correct form.
+# To do this we'll have to access each element and this can be done as follows:-
+ signupForm.addEventListener('submit', (event) =>
+ {
+   event.preventDefault()
+   const variablenametostore = signupForm['idoftheelement'].value
+}
+This will display the value or the input of the element in the console.
+
+# trim() functions is the fuction which removes the first and last spaces in a string and displays the output. It can be used in any of the strings.
+# To calculate the length of a string we can make use of a .length property which gives the output as how much characters are present in the string including the space.
+# To validate a first name and last name we can use the following code:-
+ const signupForm = document.getElementById('signupForm');
+signupForm.addEventListener('submit', (event) => {
+    event.preventDefault()
+    //To validate the first name we'll have to access the firstname, to access this
+    const firstName = signupForm['firstName'].value
+    const lastName = signupForm['lastName'].value
+    const email = signupForm['email'].value
+    const password = signupForm['password'].value
+
+    //To validate of the first name and lastname has no empty spaces and doesn't exceed 20 characters
+    //Make use of the trim() function and length attribute 
+    if(firstName.trim() === '')
+    {
+        console.log("First name cannot be empty");
+    }
+    if(firstName.length > 20)
+    {
+        console.log("Firstname cannot be more than 20 characters");
+    }
+    if(lastName.trim() === '')
+    {
+        console.log("Last name cannot be empty");
+    }
+    if(lastName.length > 20)
+    {
+        console.log("Last name cannot be more than 20 characters");
+    }
+})
+
+# Inorder to check if the passwords and the email are in the correct format, we'll make use of the regular expression.
+# Regular expression is a string where we'll provide the format that needs to be checked. Various formats can be found from Google and just paste the regular expression onto it.
+ let regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;   //For email
+ Just paste this in the code and check by using if by using the note condition and using the match() function
+  let regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+     if(!email.match(regex))
+     {
+        console.log("Email is not in the correct format");
+     }
+same procedure for password.
