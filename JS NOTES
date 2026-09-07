@@ -213,7 +213,7 @@ FORM VALIDATION:-
 }
 This will display the value or the input of the element in the console.
 
-# trim() functions is the fuction which removes the first and last spaces in a string and displays the output. It can be used in any of the strings.
+# trim() functions is the function which removes the first and last spaces in a string and displays the output. It can be used in any of the strings.
 # To calculate the length of a string we can make use of a .length property which gives the output as how much characters are present in the string including the space.
 # To validate a first name and last name we can use the following code:-
  const signupForm = document.getElementById('signupForm');
@@ -256,4 +256,33 @@ signupForm.addEventListener('submit', (event) => {
      }
 same procedure for password.
 
-#
+# To avoid the reloading after each submission or click of the submit button, we can make use of the e event for forms which prevents all the default issues.
+ e.preventDefault()
+
+const fomr=document.getElementById('myForm')
+fomr.addEventListener('submit',(e)=>
+{
+
+e.preventDefault()
+
+let fName=document.getElementById(fName).value
+let email=document.getElementById(email).value
+let password=document.getElementById(password).value
+
+if(fName === ""){
+    alert('Name is required')
+}
+elseif(email==="")
+{
+    alert('Email is required')
+}
+elseif(password==="")
+{
+    alert('Password is required')
+}
+else
+{
+    alert('Form submitted successfully')
+}
+})
+55.45
