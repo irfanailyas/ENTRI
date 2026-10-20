@@ -1,3 +1,48 @@
+                                                                              MERN STACK
+
+Who is a full stack developer?
+# A FSD is a SD who can work on both the frontend and backend of an Application. The roles of  a FSD are:-
+ ~ Frontend development
+ ~ Backend development
+ ~ Database management
+ ~ API Development (APIs allow the frontend and backend to communicate)
+ ~ Version control (They manage the code chnages and collaboration)
+ ~ Testing and debugging
+ ~ Delpoyment and maintenance
+
+What is a runtime environment?
+# A RTE is the environment in which the code runs and executes.
+
+What is the advantage of MERN stack?
+# It uses the Model View Controller Architecure. It is an open source community and is fast and efficient that the other stacks. Also the core lanaguage the stack is  based on is Javscript and that's why it is easy to understand.
+
+What is the difference between a website and a web application?
+# Websites can be used to provide information to users and web applications can be used to perform tasks and interact with data.
+# Dashboard 
+
+
+What is HTML?
+# It is the Hypertext Markup language that is used to create and structure web pages.
+# The .html extension specifies that a file contains HTML code and should be interpreted by a web browser as a web page.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Page</title>
+        <body>
+        </body>
+    </head>
+</html>
+
+<meta charset="UTF-8"> This ensures that the characters are displayed correctly and without this some characters may appear as unknown symbols.
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> This makes the width of the web page as the width of the device that is making it same responsive.
+
+TAGS:_
+# These contains meta information about HTML documents.
+# In the <head> tag we have the follows:-
+<title> tage specifies the name of the HTML page
+<link> used to link the css docs.
+
+
 ~ To open VX Code from the folder path itself:-
 Folder name path tab cut and type cmd >> enter >> code (space) .
 
