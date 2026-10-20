@@ -1,5 +1,20 @@
                                                                               MERN STACK
 
+~ To open VX Code from the folder path itself:-
+Folder name path tab cut and type cmd >> enter >> code (space) .
+
+~ UTF-8 and the contents of <meta> tag are used for the accessibiltiy in every browsers or for availability of all users.
+
+~ For the copyright symbol we can right as follows:-   &copy;
+
+~ For commenting use the follows:  <!--HELLO--!>   or Ctrl + /
+
+What is a <!DOCTYPE html> ?
+# It is called the  document type declaration, i.e; it tells the browser that this document is written in HTML5 and please render it using the HTML5 standards.
+
+What is an IDE?
+# Integrated Development Environment is a software application which provides all tools needed for writing, editing, running, testing and debugging a code in one place.
+
 Who is a full stack developer?
 # A FSD is a SD who can work on both the frontend and backend of an Application. The roles of  a FSD are:-
  ~ Frontend development
@@ -23,6 +38,7 @@ What is the difference between a website and a web application?
 
 What is HTML?
 # It is the Hypertext Markup language that is used to create and structure web pages.
+# A basic HTML document has the following:- Structure tags- html, head, body and Content tags- h1, p, img, span, list.
 # The .html extension specifies that a file contains HTML code and should be interpreted by a web browser as a web page.
 <!DOCTYPE html>
 <html>
@@ -36,22 +52,45 @@ What is HTML?
 <meta charset="UTF-8"> This ensures that the characters are displayed correctly and without this some characters may appear as unknown symbols.
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> This makes the width of the web page as the width of the device that is making it same responsive.
 
-TAGS:_
+TAGS:-
 # These contains meta information about HTML documents.
 # In the <head> tag we have the follows:-
-<title> tage specifies the name of the HTML page
+<title> tage specifies the name of the HTML page. If a title tage isn't provided then the title of the page will display the file name by default.
 <link> used to link the css docs.
+<span> tag is used for inline styling or grouping text within a larger element.
+<h1,h...h6> these tags are used according to the priority and the priority for h2 will be less than h1 and so on.
+<a href=""> Anchor tag - This tag is used for adding the links. href (Hyperlink reference) also another attribute target="_blank" where the link will be opened in another tab.
+<span> this is an inline container. This can be used when you would like to give a different style for a particular part in a paragraph.
+<list>
+# Ordered list (Numbers)  <ol>
+# Unordered list (Bullet points) <ul>
+<img src="" alt="alternative text"> To display the images.
 
+SEMANTIC TAGS:-
+# These are the tags that clearly describe the meaning and purpose of the content they contain.
+# These improve readability, accessability and mainatinability of code.
+<header> Tag
+● Represents the header section of a webpage or specific sections.
+● Typically contains site title, logo, and navigation.
+<nav> Tag
+● Used for navigation links. This should always be used when the links are to be added at the top sections and if needed at the lower sides of the web page, make use of the <a> tag.
+. <main> Tag
+● Marks the primary content of a webpage.
+ <section> Tag
+● Groups content into thematic sections, is used to group related content under a common topic. There will always be a heading tag at the start of each section to mention the theme of the section.
+<article> Tag
+● Represents a self-contained piece of content that can stand on its own and there should be a heading at the start of the article.
+<aside> Tag
+● Used for content related to the main content, like sidebars.
+<footer> Tag
+● Represents the footer section of a webpage.
+<footer>
+ <p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
 
-~ To open VX Code from the folder path itself:-
-Folder name path tab cut and type cmd >> enter >> code (space) .
-
-~ UTF-8 and the contents of <meta> tag are used for the accessibiltiy in every browsers or for availability of all users.
-
-~ For the copyright symbol we can right as follows:-   &copy;
-
-~ For commenting use the follows:  <!--HELLO--!>
-
+ATTRIBUTES:-
+# These are  additional pieces of information added to an HTML tag to define its behavior, appearance or properties.
+For eg, src, alt in an <img> tag.
 
 FORM TAGS:-
 <form action = "">
