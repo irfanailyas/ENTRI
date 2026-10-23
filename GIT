@@ -5,9 +5,12 @@ GIT:-
  git config --global user.name "Ayshath Irfana I H"
  git config --global user.email "irfanailyas@gmail.com"
 
+What is Github?
+# Github is a cloud-based platform built on Git, enabling developers to host their repositories, collaborate efficiently and manage their projects remotely.
+
 TERMS TO KNOW BEFORE USING GIT:-
-# Repository:- This is the projetcs's central hub. This is a place where you save the copies of your code.
-# Staging area:-  This is a place where first you ass the files. You may then add or remove the files from here.
+# Repository:- This is the project's central hub. This is a place where you save the copies of your code.
+# Staging area:-  This is a place where first you add the files. You may then add or remove the files from here.
  Once you have all the necessary files in the staging area, you can take a copy of it.
 # Commit:- It is the snapshot of your project at a given time. This means copying the files to your repository.
 # Local:- It is the computer or the system you're working on.
@@ -55,8 +58,27 @@ TO COLLABORATE USING A GIT REPO:-
 
 ISSUES WITH REDIRECTING TO THE OLD COMMITS:-
 # Incase if there is a bug in the code and you move to an older commit. You'll be able to move to the old commit but the code and the contents written after that will be lost.
-
+# You'll be able to redirect to the older commit by using the following command:-
+ git checkout space whichisalongnumber
+# But while doing this process the rest of the data added will be lost and you'll not be able to recover them. To overcome this issue, branching is done.
 
 BRANCHING:-
-# Branch:-For example in a project, each and every projects will be saved in the particluar brach of that page.
+# Branch:-For example in a project, each and every projects will be saved in the particluar branch of that page ie; the commit for index.html will be saved on the index commit and for the other about.html it will be saved in a different commit.
+# There are the terms to be known:
+ ~ Branch: Usually a branch contains the commits for a specific feature or a bugfix.
+ ~ Merging: Once a feature or bufix has been developed, that branch gets merged into the main branch.
+ ~ Main-branch: Contains the bug free code which is ready to roll out.
+ ~ Merging:  Once the feature/ bugfix has been completed the commit should be merged to the main branch.
+
+# We'll be following the below steps for creating the branches:-
+ ~ Initialize a repo: git init
+ ~ Add files: git add -A
+ ~ Commit and add message: git commit -m "Added file index.html"
+ ~ Create a branch for the index.html page as follows: git branch feature/index-page
+  You'll be able to provide any names for the branches as your wish also make sure to mention if this is a feature or a bugfix.
+
+# Inorder to switch to another branch we can make use of the following command:-
+  git switch branchname
+# To display all the branches we should use the following command by using the graph keyword:-
+ git log --all --graph
 
