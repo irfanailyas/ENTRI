@@ -15,7 +15,7 @@ VERSIONS OF JS:-
 
 HOW TO WRITE:-
 There are two ways to write the JS code:-
-# Inside the HTML code itlef:- We can make use of the <script> tag and it should written in the <body> tag after wrting all the contents to be displayed.
+# Inside the HTML code itself:- We can make use of the <script> tag and it should written in the <body> tag after wrting all the contents to be displayed.
 # In JS for printing a content we'll use:- console.log("")
 
 VARIABLES AND VALUES:-
