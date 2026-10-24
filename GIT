@@ -82,3 +82,37 @@ BRANCHING:-
 # To display all the branches we should use the following command by using the graph keyword:-
  git log --all --graph
 
+# The bugfree commit should be merged to the main/master branch once the commits are done. To do this, we should do as follows:-
+ ~ At first move back to the master commit.
+ ~ Then run the following command: git merge feature/about-page
+
+CODE REVIEW:-
+# When you're working in a company, your code is being reviewed by a software engineer before it gets merged to main/master branch. This process is called a code review.
+# Once the commit and the commit and updating is being finished we'll have to add the files from the local system to remote repo in Github. To do this do as follows:
+ ~ Create a repo by providing a name and copy the command of:
+     git remote add origin https://github.com/irfanailyas/entri-code-review-repository.git
+ Here origin is the name of the remote.
+ ~ Then we should be adding each branches to the repo as follows:
+    Move to the master branch at first by using the command git switch master
+    Then push the branch as 
+    git push origin master
+    git push origin feature/index-page
+    git push origin feature/about-page
+# Inorder to do the code review we should be doing the pull requests. For doing the pull requests to merge the branches do as follows:
+ ~ Go to pull requests > New pull request > Select the branch to be merged and check for the arrow mark > Create pull request > Add the title and a description > Create pull request
+# For reviewing the code: Go to Files changed > Hover the cursor in the line to be changes and click the + button and add the comments > Make changes in the code >Add and commit to the branch >
+ Submit review > Resolve conversation > Merge the code
+
+
+MERGING BOTH LOCALLY AND REMOTELY:-
+# The remote merging can be done by using the pull requests remotely and the same merging should be done locally on the system too by following the steps:-
+ ~ Fetch changes from origin 
+ git fetch
+ ~ Review the fetched changes :- git log --all --graph
+ git switch master
+ ~ Run git pull origin master
+ git log --all --graph
+
+
+HOSTING WEBSITE:-
+
