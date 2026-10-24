@@ -17,6 +17,12 @@ TERMS TO KNOW BEFORE USING GIT:-
 # Remote:- It is the place where you upload the code to.
 # Push:- This is the process where you upload the code from local to remote.
 
+TO COPY THE CODE OR A PROJECT REPO FROM REMOTE TO LOCAL SYSTEM:-
+# To copy back the project repo from Github do as follows:-
+~ Open the repo and copy the HTTPS link from the code option.
+~ Make a new folder in the local and open cmd from the folder.
+~ Then type the command git clone httpslink and press enter.
+
 TO CREATE A REPO AND ADD THE PROJECTS:-
 U = Untracked  A = Tracked
 1. Open the terminal in VS Code.
