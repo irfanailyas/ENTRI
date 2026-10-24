@@ -17,6 +17,13 @@
 
 *************CSS*************
 
+What are CSS?
+# Cascading Style Sheets is a language used for styling HTML elements. A CSS rule is made up of a selector and a declaration block. The declaration block
+contains properties and values separated by a colon.
+Syntax:
+selector {
+ property: value;
+} 
 CSS are of two types:-
 ~ INLINE CSS
 ~ INTERNAL CSS
@@ -78,6 +85,53 @@ CSS are of two types:-
 # This type is done by creating another external file and writing the contents in them.
 <link rel="stylesheet" href="./style.css">
 # In external css, we can make use of the id's assigned for each tags.
+
+TYPES OF SELECTORS:-
+# Element selectors
+# ID selectors #id
+# Class selectors .class
+# The universal selector (*) selects all HTML elements on the page.
+
+CSS COLORS:-
+# Inline:- <p style="color:tomato;">
+# Internal:- 
+<head>
+ <style>
+  h1 {
+   color: blue;
+     }
+ </style>
+<head>
+# External
+
+CSS BACKGROUNDS:-
+# The background-color property specifies the background color of an element.
+body {
+  background-color: lightblue;
+}
+# The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent it is. 1 is the default value and this is the normal color lower the value the color will fade away.
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+# The background-image property specifies an image to use as the background of an element.
+ body {
+  background-image: url("paper.gif");
+ }
+# The background-repeat property sets if/how a background image will be repeated.
+# The background-position property is used to set the starting position of the background image.
+ body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+ }
+# The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page).
+ body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+ }
 
 FLEXBOX:-
 It is Flexible Box Layout Flexbox and is a layout model for arranging items (horizontally or vertically) within a container, in a flexible and responsive way.
