@@ -336,3 +336,48 @@ The media-type is optional. However, if you use not, you must also specify a med
 COMBINATORS
 PSEUDO CLASS
 PSEUDO ELEMENTS
+
+DIALOGFLOW:-
+# Dialogflow is a platform developed by Google for building chatbots, virtual assistants, and conversational applications.
+# It helps computers understand what users say or type and respond intelligently by using Natural Language Processing(NLP) to understand user intent.
+
+Why use Dialogflow?
+# No coding experience is needed for using this.
+# It helps with seamless integration to platforms like Google Assistant, Slack, Whatsapp, etc.
+Some of the key concepts in dialogflow are:-
+# Agents:- It's the container for all your AI skills and personality.
+# Intents:- These are what users wants to do. Each intent is a coversation that you teach your bot to recognize.
+# Entities:- These are the key data that the user might want to extract.
+# Training phrases.
+# Responses:- These are the bot replies that the Bot responds to the intents.
+
+To create the first dialogflow model:-
+# First get into the dialogflow link on google.
+# Click on create agent, provide the agent name and then click on create.
+#
+To deploy the trained and tested model we can make use of the following platforms:-
+Google assistant, Slack, Fb messenger, Custom made API.
+
+What are the limitation of Dialogflow?
+# Requires more training data for accuracy.
+# Complex conversations need advanced setup.
+# Price is free for a smaller use and if the requests exceed more than 15,000/month charges will be applied.
+
+What are LLMs?
+# LLM stands for Large Language Model.
+# It is a type of Artificial Intelligence (AI) trained on vast amounts of text data to understand and generate human-like language.
+# Chatgpt, Microsoft Copilot, Claude, Gemini.
+# LLM (Large Language Model) is an AI model trained on large amounts of text data to understand and generate human language.
+# It can perform tasks such as answering questions, generating content, writing code, translating languages, and powering
+  conversational AI applications like chatbots and virtual assistants.
+
+What is NLP?
+# Natural Language Processing (NLP) is a branch of Artificial Intelligence that enables computers to understand, interpret, process and generate human language.
+# It is used in chatbots, virtual assistants, machine translation, speech recognition, sentiment analysis, and conversational AI systems.
+
+What is Gen AI?
+# Generative AI is a type of artificial intelligence that can create new content such as text, images, code, audio, and videos based on user prompts. 
+# It uses advanced AI models, including Large Language Models (LLMs), to generate human-like and contextually relevant outputs.
+
+MIDJOURNEY FOR IMAGE ORIENTED AI
+
