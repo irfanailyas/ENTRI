@@ -69,17 +69,17 @@ Reference-type Datatypes:- Object, Array, function.
  To print only the name then we'll write console.log(obj1.name) Output will be John.
 
 OPERATORS IN JS:-
-# Arithmetci operators:- These are opeartors used to perform arithmentic operations. like +, -, *, /, ++ --. **
-# Assignment operators:-  =, +=, -=, /=, *=, %=, **=
+# Arithmetic operators:- These are opeartors used to perform arithmentic operations. like +, -, *, /, ++ --. **
+# Assignment operators:-  =, +=, -=, /=, *=
 # Comparison operator:- To compare values between two operators  >, >=,<, <=, 
-=== checkes if the two values are of the smae datatype and returns the value true or false.  
+=== checkes if the two values are of the same datatype and returns the value true or false.  
 == checks if the two values are same and returns true or false.
-!= and !=== this one checks the data type too
+!= and !== this one checks the data type too
 # Logical operator:- 
 Logical AND && in this case this will only be true if both the conditions are true else if one is false it will be false.
 Logical OR || in this case this will be true if any one of the values is true.
 Logical NOT !   EXAMPLE !true = false
-# Ternary operators:- 
+# Ternary operators:-  condition ? valueIfTrue : valueIfFalse;
 
 
 CONDITIONAL STATEMENTS:-
@@ -87,10 +87,21 @@ CONDITIONAL STATEMENTS:-
 if(condition) {
 console.log()
 }
-else {}
+else {
+console.log("");
+}
 # if-else if-else
+if(condition) {
+console.log("");
+}
+else if (condition) {
+console.log("");
+}
+else {
+console.log("");
+}
+
 # switch:-
-SYNTAX:-
 swtich(expression) {
  case value1:
    //code to execute
@@ -211,27 +222,25 @@ FORM SUBMISSION:-
 
 FORM VALIDATION:-
 # This is done inorder to check if the values inserted into the form is in the correct form.
-# To do this we'll have to access each element and this can be done as follows:-
- signupForm.addEventListener('submit', (event) =>
- {
-   event.preventDefault()
-   const variablenametostore = signupForm['idoftheelement'].value
-}
-This will display the value or the input of the element in the console.
+# To do this we'll have to access form and this can be done as follows:-
+ const signupForm = document.getElementById('signupForm');
 
+signupForm.addEventListener('submit', (event) => {
+    event.preventDefault()
+})
 # trim() functions is the function which removes the first and last spaces in a string and displays the output. It can be used in any of the strings.
 # To calculate the length of a string we can make use of a .length property which gives the output as how much characters are present in the string including the space.
 # To validate a first name and last name we can use the following code:-
  const signupForm = document.getElementById('signupForm');
 signupForm.addEventListener('submit', (event) => {
     event.preventDefault()
-    //To validate the first name we'll have to access the firstname, to access this
+    //To access all the elements:-
     const firstName = signupForm['firstName'].value
     const lastName = signupForm['lastName'].value
     const email = signupForm['email'].value
     const password = signupForm['password'].value
 
-    //To validate of the first name and lastname has no empty spaces and doesn't exceed 20 characters
+    //To validate the first name and lastname has no empty spaces and doesn't exceed 20 characters
     //Make use of the trim() function and length attribute 
     if(firstName.trim() === '')
     {
@@ -292,3 +301,6 @@ else
 }
 })
 55.45
+
+
+
