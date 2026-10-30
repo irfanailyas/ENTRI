@@ -1,0 +1,78 @@
+What is an API?
+# API stands for Application Programming Interface.
+# It is a software interface which allows two or more computer programs to communicate with each other.
+# It's a set of rules or protocols that define how applications communicate with each other using requests or responses.
+
+Why are APIs being used?
+# It can access data from other systems.
+# Connect different applications and share functionality without exposing the source code.
+# Common APIs are:- Google Maps API, GitHub API, OpenWeather API.
+
+What are the ways to call an API?
+# XMLHttp Request:- This is the oldest way and is also a bit complex in the way.    https://javascript.info/xmlhttprequest
+# Fetch API:- This is the new method and is easier to use compared to the XMLHttp Request.
+
+FETCH API:-
+# This method uses the fetch(url,options) method to call the API.
+url → API endpoint(link of API)
+options → Optional settings like method, headers, body, etc.
+# fetch() is a built-in JavaScript function used to send HTTP requests to a server and receive data from it.
+# You'll be getting a promise once the request is being fetched.
+# Inorder to collect the data from the promise fetched you can follow the steps below:-
+~ Use a then method: a response will be printed in the body part which will be in JSON format and this will not be in the readable format.
+  To get the JSON we'll have to use the response.json().
+~ response.json() is used to convert the json format into a Javascript object.
+To be clear at first we'll be using a fetch() and will be receiving the promise. To fetech the data from the promise we'll be using a .then() and will be receiving a JSON format output.
+To get the data from the JSON output we'll be using the response.json() to receive a promise.
+Atlast we'll be using the .then() to get the actual data from the API.
+
+fetch('https://poetrydb.org/author')  //fetched data
+.then(function(response) {           //used then() to  fetch the promise
+   return response.json()            //used response.json() to receive the promise
+})
+    .then(function(data) {           //used the .then() to retrieve the data in the API
+        console.log(data)
+    })
+
+PROMISE:-
+# A promise is a JavaScript object that represents the eventual completion or failure of an asynchronous operation.
+# It has three states:- Pending, Fulfilled(Settled) and Rejected.
+# Pending if the taks is still running, fulfilled if you get the correct response or the task is completed successfully and rejected if the task is failed.
+# .then() is used to run when a promise is successfull and .catch() is used to run when a promise is failed.
+
+How to handle errors in Promises?
+# Settled promises will be either fulfilled or rejected and when an error occurs the promises will be rejected.
+# To run the code when the promise gets rejected, we can use the use.catch() method.
+# We'll be able to use the catch() method so that the page will not be crashed fully and you'll be able to display the error message on the console.
+.catch(function(error) {
+        console.log(error)
+    })
+
+What is a JSON format?
+# JSON stands for JavaScript Object Notation. It is the standard ir light-weight format of data that is being used to store and exchange data between client-server communication.
+# It is self-describing and is easy to use. In JSON, keys must be inside double quotes followed by the values and is written inside curly braces.
+# The data types supported for JSON format are:- String, Number, Boolean, Null, Object, Array.
+# JSON.stringify() is a JavaScript method that converts a JavaScript object into a JSON string.
+# JSON.parse() is a JavaScript method that converts a JSON string into a JavaScript Object.
+const student = { 
+    name : "Ajay",
+    age : 28 ,
+    employee : true
+}
+const jsonObj = JSON.stringify(student)
+console.log(jsonObj)
+
+const jsonO = JSON.parse(jsonObj)
+console.log(jsonO)
+
+What is a WebSpeech API?
+# WebSpeech API is a JavaScript API that allows web applications for speech synthesis and speech recognition. The two main components are:-
+ ~ Convert speech to text (Speech Recognition)
+ ~ Convert text to speech (Speech Synthesis)
+# It is supported by Chrome, Edhe and Firefox.
+SPEECH RECOGNITION:-
+# It is a technology that uses the microphonee to listen to a user's voice and converts it into text.
+# The key methods/events in this are:-
+ ~ SpeechRecognition(): This initializes the speech recognition engine.
+ ~ start() and stop()
+ ~ onresult: This event captures the spoken words and gives you the spoken text.
